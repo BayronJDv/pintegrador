@@ -1,0 +1,32 @@
+
+html, body, #root{
+    margin : 0;
+    padding: 0;
+    width: 100%;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size:  xx-large;
+    color: purple;
+}
+span{
+    font-size: large;
+    color: gray;
+}
+p{
+    font-size: medium;
+    color: black;
+}
+
+a{
+    color: whitesmoke;
+    font-size: medium;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
