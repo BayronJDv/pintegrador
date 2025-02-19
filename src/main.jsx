@@ -6,7 +6,7 @@ import Quiz from './pages/quiz/Quiz.jsx'
 import Notfound from './pages/not found/Notfound.jsx'
 import Heart from './heart/Heart.jsx'
 import HighBloodPreasure from './heart/high-blood-preasure/HighBloodPreasure.jsx'
-import LowBloodpreasure from './heart/low-blood-preasure/LowBloodpreasure.jsx'
+import LowBloodPreasure from './heart/low-blood-preasure/LowBloodPreasure.jsx'
 import Layout from './layout/Layout.jsx'
 
 createRoot(document.getElementById('root')).render(
@@ -19,7 +19,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="*" element={<Notfound />} />
         <Route path="corazon" element={<Heart />} >
           <Route path="presion-alta" element={<HighBloodPreasure />} />
-          <Route path="presion-baja" element={<LowBloodpreasure />} />
+          <Route path="presion-baja" element={<LowBloodPreasure />} />
         </Route>
       </Routes>
       </Layout>
